@@ -1,0 +1,258 @@
+/*页面头部*/
+body{
+    width:100%;
+    height:140px;
+    padding:0;
+    margin:0 auto;
+    position: relative;
+    font-family: Microsoft YaHei;
+}
+/*头部背景*/
+.top-s{
+    width:100%;
+    height: 35px;
+    background:#f7f7f7;
+    border:none;
+    border-bottom:1px solid #E4E4E4;
+}
+/*头部内容*/
+.top-con{
+    width:1200px;
+    height:35px;
+    line-height:35px;
+    margin:0 auto;
+    /*border:1px solid red;*/
+}
+.login{
+    color:#ed0a75;
+}
+
+.fl>li>a{
+    padding:5px 2px;
+}
+.fl>li{
+    font-size:12px;
+    text-align: center;
+    float:left;
+    padding:0 0px 0 10px;
+    position: relative;
+    height:35px;
+}
+.top-con li b{
+    z-index: 10;
+    width:7px;
+    height:4px;
+    overflow: hidden;
+    background: url("../img/bg/top-bg.png") no-repeat 0px -40px;
+    position:absolute;
+    top:15px;
+    left:76px;
+}
+.my{
+    width:80px;
+}
+.my-border{
+    border:1px solid #DDD;
+    border-bottom: none;
+}
+.my-list1{
+    height:110px;
+    border:1px solid #DDD;
+    border-top:none;
+}
+.my-list1 a{
+    display: block;
+    width:80px;
+    height:20px;
+}
+.border{
+    display: inline-block;
+    border-left:1px solid #DDD;
+    border-right:1px solid #DDD;
+}
+.fr{
+    float:right;
+}
+.fr li{
+    float:left;
+    font-size:12px;
+    text-align: center;
+    padding:0 10px 0 10px;
+}
+.fr:last-child b{
+    z-index: 10;
+    width:7px;
+    height:4px;
+    overflow: hidden;
+    background: url("../img/bg/top-bg.png") no-repeat 0px -40px;
+    position:absolute;
+    top:15px;
+    left:1205px;
+}
+span,p{
+    display: inline-block;
+    width:1px;
+    height:15px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    color:#DDD;
+}
+.fl:first-child span{
+    left:120px;
+}
+.fl:nth-child(1) p{
+    left:90px;
+}
+.fr p{
+    left:1215px;
+}
+/*搜索框一行*/
+.header-w{
+    width:1200px;
+    height:62px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.header-w a>img{
+    position: absolute;
+}
+.current-city{
+    width:32px;
+    height:10px;
+    font-size: 15px;
+    font-weight:bold;
+    font-family: "宋体";
+    display:inline-block;
+    top:25px;
+    left:35px;
+    text-align: center;
+    color: #000;
+}
+.current-city>i{
+    display: inline-block;
+    width:7px;
+    height:4px;
+    background:url("../img/bg/index-icon.png") no-repeat scroll -28px 0;
+    overflow: hidden;
+    position: absolute;
+    top:6px;
+    left:38px;
+}
+/*城市选择列表*/
+.citys-change{
+    width:695px;
+    height:780px;
+    border:1px solid #EDEDED;
+    position: absolute;
+    top:50px;
+    left:258px;
+    background: #FEFEFE;
+}
+.citys-on{
+    position: absolute;
+    top:50px;
+    left:258px;
+}
+/*演出说明*/
+.ri-con{
+    float:left;
+    padding-left:210px;
+}
+.ri-con>span{
+    width:360px;
+    color: #666;
+    font-size:14px;
+    line-height:14px;
+    margin-top: 20px;
+}
+.ri-con>a{
+    display: inline-block;
+    width:30px;
+    height:35px;
+    background: url("../img/bg/index-icon.png") no-repeat scroll -46px 1px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+/*进入XX站*/
+.city-link{
+    position: absolute;
+    top:55px;
+    left:30px;
+}
+.dm-rec{
+    display: inline-block;
+    border:1px solid #eee;
+    height:24px;
+    width: 90px;
+    line-height:24px;
+    background:url("../img/bg/index-icon.png") no-repeat scroll -186px 6px;
+    padding:0px 5px 0px 20px;
+    color:#888;
+    position: absolute;
+    top:0px;
+    left:5px;
+}
+
+.insiteName{
+    display:inline-block;
+    height:24px;
+    width:50px;
+    color:#888;
+    line-height:24px;
+    position: absolute;
+    top: 0px;
+    left: 61px;
+}
+/*搜索框*/
+.search-main{
+    position: absolute;
+}
+.search-text{
+    clear: both;
+    border:3px solid #ed0a75;
+    width:520px;
+    height:24px;
+    padding:5px 10px;
+    overflow: hidden;
+    color:#666;
+    outline:0;
+    position: relative;
+    left:490px;
+    top:-65px;
+}
+.search-btn{
+    border:none;
+    background: #ed0a75;
+    width: 90px;
+    height:40px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-family:"Microsoft YaHei";
+    cursor: pointer;
+    color:#fff;
+    position: absolute;
+    left: 946px;
+    top: -65px;
+}
+/*推荐*/
+.search-recommend{
+    padding-top:6px;
+}
+.search-recommend a{
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+    padding-right: 10px;
+    color:#b4b4b4;
+    padding-top:6px;
+    position: relative;
+    left:500px;
+    top:-30px;
+}
+
+
+
+

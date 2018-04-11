@@ -1,0 +1,223 @@
+.miannav-wrap {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #ed0a75;
+    margin-bottom: 30px;
+}
+.miannav {
+    width: 1200px;
+    margin: 0 auto;
+}
+.miannav .sort {
+    float: left;
+    position: relative;
+    width: 202px;
+    z-index: 20;
+}
+.sort-ti {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 43px;
+    font-size: 14px;
+    text-align: center;
+    background: #ed0a75;
+    overflow: hidden;
+    color: #fff;
+}
+.sort-ti>a{
+    display: block;
+    width:202px;
+    height:40px;
+    color: #fff;
+}
+.sort ul {
+    position: absolute;
+    left:230px;
+    overflow: hidden;
+    height:40px;
+    width:540px;
+}
+.sort ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.sort>ul li>a{
+    font-size: 16px;
+    color: #000;
+    padding: 0 30px;
+}
+.box{
+    margin-left: 60px;
+}
+.search_list {
+    border: 1px solid #efefef;
+    padding: 10px 18px;
+    float: left;
+    width:900px;
+}
+.search_list li{
+    float: left;
+    margin-bottom: 30px;
+}
+.search_list li .search_img {
+    width: 153px;
+    height: 206px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+}
+.search_img a>img{
+    width: 153px;
+    height: 206px;
+}
+.search_list li .search_txt {
+    width: 680px;
+    height: 206px;
+    line-height: 24px;
+    float: left;
+    position: relative;
+}
+.search_list li .search_txt h3 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.c3, a.c3 {
+    color: #999;
+}
+.search_txt_cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left:5px;
+    height: 20px
+}
+.search_list li .search_txt>p {
+    margin-bottom: 6px;
+
+}
+.search_txt_time {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 160px;
+    height: 18px;
+    position: absolute;
+    top: 60px;
+    left: -74px;
+}
+.search_txt_time_icon1 {
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    margin-top: 5px;
+    cursor: text;
+    margin-left: 5px;
+    background: url("../img/bg/icon_bg3.png")  no-repeat 0 -47px ;
+}
+.search_txt_time_icon2{
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+    margin-top: 5px;
+    cursor: text;
+    margin-left: 5px;
+    background: url("../img/bg/icon_bg3.png")  no-repeat 0 -82px ;
+    position: absolute;
+    top: 85px;
+    left: -5px
+}
+.search_txt_time_icon2+span{
+    position: absolute;
+    top: 86px;
+    left: 22px;
+    width: 200px;
+    color: #000;
+    text-align: left;
+}
+.search_txt_time_icon3{
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    margin-top: 5px;
+    cursor: text;
+    margin-left: 5px;
+    background: url("../img/bg/icon_bg3.png")  no-repeat 0 -162px ;
+}
+.search_txt_time_icon1+span{
+    margin-left: 5px;
+}
+
+.search_txt_piao{
+    position: absolute;
+    top:111px;
+    width:100px;
+}
+.search_txt_piao em {
+    color: #ed0a75;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.search_txt_line{
+    position: absolute;
+    top: 134px;
+    width: 31px;
+}
+.span_txt{
+    width: 36px;
+    color: #ed0a75;
+    position: absolute;
+    top: 4px;
+}
+.search_txt_bottom{
+    border-bottom: 1px dotted #999;
+    position: relative;
+    top:220px;
+}
+.search-page-list{
+    position: relative;
+    left:30%;
+    height: 34px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.pages{
+    margin:  20px 300px;
+}
+.search-page-num{
+    float: left;
+    cursor: pointer;
+}
+.search-page-num li{
+    float: left;
+    padding: 0 14px;
+    height:34px;
+    margin-right: 10px;
+    line-height: 34px;
+    text-align: center;
+    cursor: inherit;
+}
+.search-page{
+    border: 1px solid #eaeaea;
+    background:#f5f5f5;
+    color: #666;
+}
+.search-pagePrev,.search-pageNext{
+    border: 1px solid #eaeaea;
+    background:#eee;
+}
+.light{
+    color:#ed0a75;
+    border-color: #ed0a75;
+}
+.gray{
+    color: #fff;
+}

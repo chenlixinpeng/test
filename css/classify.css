@@ -1,0 +1,307 @@
+/*主导航*/
+div.mainnav-wrap{
+    width:100%;
+    height:40px;
+}
+.mainnav{
+    width:1200px;
+    height:40px;
+    margin:0 -60px;
+    overflow: hidden;
+}
+.on{
+    background: #ed0a75;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.a-on{
+    color: #fff;
+    cursor: pointer;
+}
+/*主导航列表*/
+.mainnav>ul{
+    display: inline-block;
+    margin:0 0 0 197px;
+}
+.mainnav>ul li{
+    float: left;
+    height:40px;
+    line-height: 40px;
+}
+.mainnav>ul li>a{
+    font-size:16px;
+    padding:0 30px;
+    position:relative;
+    color: #000;
+}
+.index-top{
+    margin: 0 auto;
+    height: 420px;
+    margin-bottom: 30px;
+}
+/*轮播*/
+.slide-main{
+    box-sizing: border-box;
+    width:1366px;
+    height:420px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner {
+    width:1366px;
+    position: relative;
+    overflow: hidden;
+}
+.banner li{
+    width: 1366px;
+    height:420px;
+    float: left;
+    overflow: hidden;
+}
+.banner li a>img{
+    width:1366px;
+    height:420px;
+    margin: 0 auto;
+}
+
+/*上一张，下一张*/
+a.skip{
+    display:block;
+    width:40px;
+    height:100px;
+    position:absolute;
+    top:160px;
+    left:50%;
+    z-index:2;
+}
+.prev{
+    margin-left:-590px;
+    background: url("../img/banner/slide-main-btns.png") no-repeat 0 0;
+}
+.next{
+    margin-left:560px;
+    background: url("../img/banner/slide-main-btns.png") no-repeat -60px 0;
+}
+/*轮播下面边栏*/
+.sd{
+    width:100%;
+    height:40px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: url("../img/banner/main-player-bar-bg.png") repeat-x 0 0;
+    z-index: 1;
+}
+.indicators{
+    position: absolute;
+    left:690px;
+    top:394px;
+    z-index: 10;
+}
+.indicators li{
+    float: left;
+    width:10px;
+    height:10px;
+    background: #818795;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor:pointer;
+    transition:all .2s linear;
+}
+.indicators li.hover{
+    background-color: #fff;
+}
+.ranking{
+    margin:0 auto;
+    width:1200px;
+}
+.hd{
+    position: relative;
+    border-bottom: 1px dashed #333;
+    height: 58px;
+    z-index: 99;
+}
+.m-title{
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    line-height: 36px;
+    margin-left: -100px;
+    width: 257px;
+    height: 54px;
+}
+.jiao-2, .ranking .jiao-3, .ranking .jiao-4, .ranking .jiao-5, .ranking .jiao-6, .ranking .jiao-7 {
+    width: 22px;
+    height: 19px;
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.jiao-1{
+    width: 67px;
+    height: 80px;
+    background: url("../img/bg/jiaobiao.png") no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.jiao-1+img{
+    width:238px;
+    height:359px;
+}
+.rankl{
+    width: 238px;
+    float: left;
+    margin-top: 54px;
+    position: relative;
+}
+.rankr{
+    width: 900px;
+    float: right;
+    margin-top: 40px;
+}
+.lst{
+    float: left;
+    width: 295px;
+    position: relative;
+}
+.tt{
+    width: 112px;
+    float: left;
+}
+.tt img{
+    width:112px;
+    height:150px;
+    margin-bottom: 42px;
+}
+.itm{
+    float: left;
+    padding-left: 10px;
+    width: 160px;
+    display: inline-block;
+    overflow: hidden;
+    /*position: relative;*/
+}
+.jiao-2{
+    background: url("../img/bg/biao-2.png") no-repeat 0 0;
+}
+.jiao-3{
+    background:url("../img/bg/biao-3.png") no-repeat 0 0;
+}
+.jiao-4{
+    background: url("../img/bg/biao-4.png") no-repeat 0 0;
+}
+.jiao-5{
+    background: url("../img/bg/biao-5.png") no-repeat 0 0;
+}
+.jiao-6{
+    background: url("../img/bg/biao-6.png") no-repeat 0 0;
+}
+.jiao-7{
+    background: url("../img/bg/biao-7.png") no-repeat 0 0;
+}
+.t1{
+    padding-bottom: 10px;
+}
+.t1 a{
+    display: block;
+    width:110px;
+    height: 35px;
+    overflow: hidden;
+    color: #333;
+    position: absolute;
+    top:22px;
+    text-align: left;
+}
+.st{
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+    text-align: left;
+}
+.stt{
+    position: absolute;
+    top:80px;
+    text-align: left;
+    margin-left: 2px;
+}
+.sts{
+    position: absolute;
+    top:110px;
+    margin-left: 2px;
+}
+.st1{
+    color:#000;
+    width: 50px;
+}
+.bl{
+    margin-left: 302px;
+}
+.section{
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+}
+.cal_top{
+    background: url("../img/bg/family_top.gif") no-repeat 0 0;
+    width: 1200px;
+    height: 138px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cal_top a{
+    vertical-align: middle;
+    margin: 0 30px;
+    padding: 0;
+    font-size: 100%;
+    position: absolute;
+    top:10px;
+}
+#clpre{
+    left:40%;
+}
+#clnext{
+    left:55%;
+}
+.cal_top i{
+    display: block;
+    margin: 5px 0 auto;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-size: 28px;
+}
+.cal_center{
+    width:1200px;
+    margin:0 auto;
+    background: url("../img/bg/family_center.png") repeat-y;
+}
+.cal_center>ul{
+    width:1200px;
+    overflow: hidden;
+    list-style: none;
+}
+.dates li{
+    float: left;
+    width: 163px;
+    height: 163px;
+    padding: 4px;
+    margin: 0;
+
+    border-bottom: 1px solid #ffbac9;
+}
+.dates li img{
+    width: 163px;
+    height: 163px;
+    border-radius: 5px;
+}
+.uu{
+    position: absolute;
+    top:130px;
+}
+
